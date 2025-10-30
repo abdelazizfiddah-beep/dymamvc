@@ -1,4 +1,5 @@
 <?php
+// Bonjour Abdel :)
 require_once __DIR__ . '/../config/database.php';           // ligne 2 : inclusion de la config DB
 
 require_once __DIR__ . '/../app/controllers/ArticleController.php';  // ligne 5 : inclusion du contrôleur
@@ -21,3 +22,4 @@ switch ($request_uri[0]) {
         $controller->afficherIndex();
         break;
 }
+
